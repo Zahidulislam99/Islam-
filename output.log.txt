@@ -1,0 +1,73 @@
+2025-05-18 10:32:43.751 [trace] [Server] Remote configuration data at /home/codespace/.vscode-remote
+2025-05-18 10:32:43.751 [trace] [Server] process arguments: {"_":[],"host":"127.0.0.1","port":"0","connection-token-file":"/home/codespace/.vscode-remote/data/Machine/.connection-token-848b80aeb52026648a8ff9f7c45a9b0a80641e2e","without-connection-token":false,"disable-websocket-compression":false,"print-startup-performance":false,"print-ip-address":false,"accept-server-license-terms":true,"server-data-dir":"/home/codespace/.vscode-remote","enable-smoke-test-driver":false,"disable-telemetry":false,"disable-workspace-trust":false,"log":["trace"],"force-disable-user-env":true,"enable-sync":false,"use-test-resolver":false,"extensions-download-dir":"/home/codespace/.vscode-remote/extensionsCache","install-builtin-extension":["GitHub.vscode-pull-request-github","github.github-vscode-theme","github.codespaces"],"update-extensions":false,"list-extensions":false,"show-versions":false,"force":false,"do-not-sync":true,"do-not-include-pack-dependencies":false,"pre-release":false,"start-server":true,"enable-remote-auto-shutdown":true,"remote-auto-shutdown-without-delay":false,"use-host-proxy":false,"without-browser-env-var":false,"help":false,"version":false,"user-data-dir":"/home/codespace/.vscode-remote/data","builtin-extensions-dir":"/vscode/bin/linux-x64/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions","extensions-dir":"/home/codespace/.vscode-remote/extensions","logsPath":"/home/codespace/.vscode-remote/data/logs/20250518T103243"}
+2025-05-18 10:32:43.751 [info] [Server] 
+
+
+
+
+2025-05-18 10:32:43.751 [trace] [Server] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/data/Machine (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/codespace/.vscode-remote/data/Machine/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-05-18 10:32:43.751 [trace] [Server] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/data/Machine'
+2025-05-18 10:32:43.751 [trace] [Server] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/data/Machine/settings.json'
+2025-05-18 10:32:43.774 [trace] [Server] Installing builtin extensions passed via args...
+2025-05-18 10:32:43.776 [trace] [Server] Started scanning system extensions
+2025-05-18 10:32:43.777 [trace] [Server] Started scanning user extensions {"$mid":1,"external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"}
+2025-05-18 10:32:43.782 [info] [Server] Extension host agent started.
+2025-05-18 10:32:43.812 [trace] [Server] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-05-18 10:32:43.815 [debug] [Server] Error while reading the extension cache file: /home/codespace/.vscode-remote/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/codespace/.vscode-remote/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/codespace/.vscode-remote/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2025-05-18 10:32:43.866 [info] [Server] Started initializing default profile extensions in extensions installation folder. file:///home/codespace/.vscode-remote/extensions
+2025-05-18 10:32:43.912 [trace] [Server] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/dbaeumer.vscode-eslint-3.0.13
+2025-05-18 10:32:43.913 [trace] [Server] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/ms-toolsai.jupyter-2025.5.2025051603
+2025-05-18 10:32:43.913 [trace] [Server] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/esbenp.prettier-vscode-11.0.0
+2025-05-18 10:32:43.913 [trace] [Server] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/ms-azuretools.vscode-docker-1.29.6
+2025-05-18 10:32:43.958 [trace] [Server] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/extensions'
+2025-05-18 10:32:44.030 [info] [Server] ComputeTargetPlatform: linux-x64
+2025-05-18 10:32:44.098 [trace] [Server] [File Watcher (node.js)] [raw] ["rename"] extensions.json
+2025-05-18 10:32:44.098 [trace] [Server] [File Watcher (node.js)] [raw] ["change"] extensions.json
+2025-05-18 10:32:44.098 [trace] [Server] [File Watcher (node.js)] [ADDED] /home/codespace/.vscode-remote/extensions/extensions.json
+2025-05-18 10:32:44.121 [trace] [Server] Scanned system extensions: 32
+2025-05-18 10:32:44.123 [info] [Server] Completed initializing default profile extensions in extensions installation folder. file:///home/codespace/.vscode-remote/extensions
+2025-05-18 10:32:44.126 [trace] [Server] Scanned user extensions: 0
+2025-05-18 10:32:44.129 [trace] [Server] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/extensions/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-05-18 10:32:44.154 [info] [Server] ComputeTargetPlatform: linux-x64
+2025-05-18 10:32:44.155 [trace] [Server] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/extensions/extensions.json'
+2025-05-18 10:32:44.175 [trace] [Server] [File Watcher (node.js)]  >> normalized [ADDED] /home/codespace/.vscode-remote/extensions/extensions.json
+2025-05-18 10:32:44.198 [trace] [Server] [File Watcher (node.js)] [CHANGED] /home/codespace/.vscode-remote/extensions/extensions.json
+2025-05-18 10:32:44.274 [trace] [Server] [File Watcher (node.js)]  >> normalized [CHANGED] /home/codespace/.vscode-remote/extensions/extensions.json
+2025-05-18 10:32:44.381 [info] [Server] [127.0.0.1][b250e472][ManagementConnection] New connection established.
+2025-05-18 10:32:44.384 [trace] [Server] [127.0.0.1][8882cc77][ExtensionHostConnection] - startParams language: en
+2025-05-18 10:32:44.384 [trace] [Server] [127.0.0.1][8882cc77][ExtensionHostConnection] - startParams env: {}
+2025-05-18 10:32:44.386 [info] [Server] [127.0.0.1][8882cc77][ExtensionHostConnection] New connection established.
+2025-05-18 10:32:44.387 [trace] [Server] resolveShellEnv(): skipped (--force-disable-user-env)
+2025-05-18 10:32:44.399 [info] [Server] [127.0.0.1][8882cc77][ExtensionHostConnection] <2093> Launched Extension Host Process.
+2025-05-18 10:32:44.596 [trace] [Server] ExtensionManagementService.updateControlCache
+2025-05-18 10:32:44.597 [trace] [Server] resolveShellEnv(): skipped (--force-disable-user-env)
+2025-05-18 10:32:44.599 [trace] [Server] Started scanning system extensions
+2025-05-18 10:32:44.602 [trace] [Server] Started scanning user extensions {"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"}
+2025-05-18 10:32:44.607 [trace] [Server] Scanning extensions using UI language: en
+2025-05-18 10:32:44.617 [info] [Server] Log level changed to info
+2025-05-18 10:32:46.641 [info] [Server] Installing builtin extension 'github.github-vscode-theme'...
+2025-05-18 10:32:46.646 [info] [Server] Installing builtin extension 'github.codespaces'...
+2025-05-18 10:32:46.651 [info] [Server] Installing builtin extension 'github.vscode-pull-request-github'...
+2025-05-18 10:32:46.661 [info] [Server] Getting Manifest... github.github-vscode-theme
+2025-05-18 10:32:46.662 [info] [Server] Getting Manifest... github.codespaces
+2025-05-18 10:32:46.662 [info] [Server] Getting Manifest... github.vscode-pull-request-github
+2025-05-18 10:32:46.700 [info] [Server] Installing extension: github.github-vscode-theme {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"}}
+2025-05-18 10:32:46.702 [info] [Server] Installing extension: github.codespaces {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"}}
+2025-05-18 10:32:46.702 [info] [Server] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"}}
+2025-05-18 10:32:53.372 [info] [Server] Extension signature verification result for github.github-vscode-theme: Success. Internal Code: 0. Executed: true. Duration: 6356ms.
+2025-05-18 10:32:53.384 [info] [Server] Extension signature verification result for github.codespaces: Success. Internal Code: 0. Executed: true. Duration: 6330ms.
+2025-05-18 10:32:53.563 [info] [Server] Extracted extension to file:///home/codespace/.vscode-remote/extensions/github.github-vscode-theme-6.3.5: github.github-vscode-theme
+2025-05-18 10:32:53.600 [info] [Server] Extension signature verification result for github.vscode-pull-request-github: Success. Internal Code: 0. Executed: true. Duration: 5797ms.
+2025-05-18 10:32:53.664 [info] [Server] Renamed to /home/codespace/.vscode-remote/extensions/github.github-vscode-theme-6.3.5
+2025-05-18 10:32:53.981 [info] [Server] Extracted extension to file:///home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.110.0: github.vscode-pull-request-github
+2025-05-18 10:32:54.004 [info] [Server] Renamed to /home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.110.0
+2025-05-18 10:32:54.240 [info] [Server] Extracted extension to file:///home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3: github.codespaces
+2025-05-18 10:32:54.248 [info] [Server] Renamed to /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3
+2025-05-18 10:32:54.313 [info] [Server] Extension installed successfully: github.github-vscode-theme file:///home/codespace/.vscode-remote/extensions/extensions.json
+2025-05-18 10:32:54.313 [info] [Server] Extension installed successfully: github.vscode-pull-request-github file:///home/codespace/.vscode-remote/extensions/extensions.json
+2025-05-18 10:32:54.313 [info] [Server] Extension installed successfully: github.codespaces file:///home/codespace/.vscode-remote/extensions/extensions.json
+2025-05-18 10:32:54.319 [info] [Server] Extension 'github.github-vscode-theme' v6.3.5 was successfully installed.
+2025-05-18 10:32:54.319 [info] [Server] Extension 'github.vscode-pull-request-github' v0.110.0 was successfully installed.
+2025-05-18 10:32:54.319 [info] [Server] Extension 'github.codespaces' v1.17.3 was successfully installed.
+2025-05-18 10:32:58.489 [info] [GitHub] Log level: Info
+2025-05-18 10:36:18.013 [info] [JSON Language Server] read schema from vscode: vscode://schemas/tasks
